@@ -1,9 +1,30 @@
+import { Link } from "react-router-dom"
 import "./register.scss"
 
-const register = () => {
+const Register = () => {
   return (
-    <div className='register'>register</div>
+    <div className="register">
+      <div className="card">
+        <div className="left">
+          <h1>Laya Social.</h1>
+          <span>Do you have an account?</span>
+          <Link to="/login">
+          <button>Login</button>
+          </Link>
+        </div>
+        <div className="right">
+          <h1>Register</h1>
+          <form>
+            <input type="text" placeholder="UserName" />
+            <input type="email" placeholder="Email" />
+            <input type="password" placeholder="Password" />
+            <input type="text" placeholder="Name" />
+            <button>Register</button>
+          </form>
+        </div>
+      </div>
+    </div>
   )
 }
 
-export default register
+export default Register
