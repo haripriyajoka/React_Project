@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import "./login.scss";
-
 const Login = () => {
     return (
         <div className="login">
