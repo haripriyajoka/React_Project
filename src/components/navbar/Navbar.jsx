@@ -29,7 +29,8 @@ const Navbar = () => {
         <EmailOutlinedIcon />
         <NotificationsOutlinedIcon />
         <div className="user">
-          <img src="./images/feed-3.jpeg" alt="" />
+          {/* <img src={require('./Pictures/ProPic.jpeg')} />  */}
+          <img src="Pictures/ProPic.jpeg" alt="" />
           <span>John Doe</span>
         </div>
       </div>
