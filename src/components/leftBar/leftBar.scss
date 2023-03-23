@@ -1,12 +1,24 @@
 .leftbar {
+    flex: 2;
 
     .container {
         padding: 20px;
 
+        hr {
+            margin: 20px 0px;
+            border: none;
+            height: 0.5px;
+            background-color: lightgrey;
+        }
+
         .main {
             display: flex;
             flex-direction: column;
-            gap: 20px;
+            gap: 10px;
+
+            span {
+                font-size: 12px;
+            }
 
             .user {
                 display: flex;
@@ -22,9 +34,52 @@
 
                 }
 
-                span {}
+                span {
+                    font-size: 14px;
+                }
+            }
+
+            .item {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                font-weight: 500;
+
+                img {
+                    width: 30px;
+
+                }
+
+                span {
+                    font-size: 14px;
+                }
             }
 
         }
+
+        // .menu{
+        //     display: flex;
+        //     flex-direction: column;
+        //     gap: 10px;
+
+        //     span{
+
+        //     }
+        //     .item{
+        //         display: flex;
+        //         align-items: center;
+        //         gap: 10px;
+        //         font-weight: 500;
+
+        //         img{
+        //             width: 30px;
+
+        //         }
+
+        //         span{
+
+        //         }
+        //     }
+        // }
     }
 }
