@@ -10,23 +10,23 @@ const LeftBar = () => {
             <span>John Doe</span>
           </div>
           <div className="item">
-            <img src="Pictures/Friends.png" alt="" />
+            <img src="Pictures/friends-2.png" alt="" />
             <span>Friends</span>
           </div>
           <div className="item">
-            <img src="Pictures/groups.png" alt="" />
+            <img src="Pictures/group-2.png" alt="" />
             <span>Groups</span>
           </div>
           <div className="item">
-            <img src="Pictures/market-place.webp" alt="" />
+            <img src="Pictures/marketplace-1.webp" alt="" />
             <span>Market place</span>
           </div>
           <div className="item">
-            <img src="Pictures/watch.png" alt="" />
+            <img src="Pictures/watch-1.webp" alt="" />
             <span>Watch</span>
           </div>
           <div className="item">
-            <img src="Pictures/memories.webp" alt="" />
+            <img src="Pictures/memories-1.webp" alt="" />
             <span>Meories</span>
           </div>
         </div>
@@ -38,19 +38,19 @@ const LeftBar = () => {
             <span>Events</span>
           </div>
           <div className="item">
-            <img src="Pictures/gaming.jpg" alt="" />
+            <img src="Pictures/gaming-1.png" alt="" />
             <span>Gaming</span>
           </div>
           <div className="item">
-            <img src="Pictures/gallary.png" alt="" />
+            <img src="Pictures/gallery-1.webp" alt="" />
             <span>Gallery</span>
           </div>
           <div className="item">
-            <img src="Pictures/videos.png" alt="" />
+            <img src="Pictures/video-1.png" alt="" />
             <span>Videos</span>
           </div>
           <div className="item">
-            <img src="Pictures/messages.png" alt="" />
+            <img src="Pictures/messages-1.webp" alt="" />
             <span>Messages</span>
           </div>
         </div>
@@ -58,15 +58,15 @@ const LeftBar = () => {
         <div className="main">
           <span>Others</span>
           <div className="item">
-            <img src="Pictures/fundraiser.png" alt="" />
+            <img src="Pictures/funds-1.jpg" alt="" />
             <span>Fundraiser</span>
           </div>
           <div className="item">
-            <img src="Pictures/tutorials.webp" alt="" />
+            <img src="Pictures/tutorial-1.jpg" alt="" />
             <span>Tutorials</span>
           </div>
           <div className="item">
-            <img src="Pictures/courses.png" alt="" />
+            <img src="Pictures/course-1.png" alt="" />
             <span>Courses</span>
           </div>
         </div>
