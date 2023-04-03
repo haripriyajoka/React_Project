@@ -1,4 +1,4 @@
- import React from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom/client';
 // import {
 //   createBrowserRouter,
@@ -6,6 +6,7 @@ import ReactDOM from 'react-dom/client';
 // } from "react-router-dom";
 import './index.scss';
 import App from './App';
+import { DarkModeContextProvider } from './context/DarkModeContext';
 //import reportWebVitals from './reportWebVitals';
 //import "./Pages/login/Login";
 // import './Pages/login/login.css'
@@ -13,7 +14,9 @@ import App from './App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <DarkModeContextProvider>
+      <App />
+    </DarkModeContextProvider>
   </React.StrictMode>
 );
 

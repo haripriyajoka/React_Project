@@ -18,6 +18,10 @@ const home = () => {
       <p>home</p>
       <p>home</p>
       <p>home</p>
+      <p>home</p>
+      <p>home</p>
+      <p>home</p>
+      <p>home</p>
       </div>
     
   )
