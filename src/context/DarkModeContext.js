@@ -9,7 +9,7 @@ export const DarkModeContextProvider = ({children}) =>{
     );
 
     const toggle = () =>{
-        setDarkMode(!darkMode);
+         setDarkMode(!darkMode);
     };
 
     useEffect(()=>{
@@ -18,7 +18,7 @@ export const DarkModeContextProvider = ({children}) =>{
     }, [darkMode]);
 
     return(
-        <DarkModeContext.Provider value={{darkMode, toggle}}>
+        <DarkModeContext.Provider value={{darkMode , toggle }}>
             {children}
         </DarkModeContext.Provider>
     );
