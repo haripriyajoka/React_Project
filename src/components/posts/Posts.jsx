@@ -19,6 +19,14 @@ const Posts = () => {
       profilePic: "Pictures/ProPic.jpeg",
       desc: "Evening blossome",
     },
+    {
+      id: 3,
+      name: "Harri  ",
+      userId: 1,
+      profilePic: "Pictures/Nissy.jpg",
+      desc: "Evening blossome",
+      img: "Pictures/feed-2.jpg",
+    },
   ];
 
   return <div className='posts'>
